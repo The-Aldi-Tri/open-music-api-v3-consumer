@@ -1,0 +1,15 @@
+version: "3.8"
+
+name: OPEN-MUSIC-API-V3-Consumer
+services:
+  devconsumer:
+    image: mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    external: true
