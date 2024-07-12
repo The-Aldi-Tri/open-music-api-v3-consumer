@@ -6,6 +6,8 @@ Proyek ini adalah consumer untuk proyek [Open Music API V3](https://github.com/T
 
 **Make sure project [Open Music API V3](https://github.com/The-Aldi-Tri/open-music-api-v3) are running in another Terminal/VS Code window.**
 
+Create an **.env** file in the root directory of project and fill it with variables based on the examples in the **.env.example** file
+
 ### - Locally
 
 - Prerequisites
